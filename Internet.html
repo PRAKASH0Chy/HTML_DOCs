@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internet</title>
+</head>
+<body>
+<h2>Internet &#8594;</h2>
+<p>The Internet is a network that connects millions of computers and devices all around the world.
+    <br>
+    It allows them to share information (websites, emails, videos, files) easily.</p>
+<hr>
+<h2>How Data is Transferred? &#8594;</h2>
+<p>Steps are:</p>
+<ol>
+    <li>You type a website (like www.google.com
+        ) into your browser</li>
+    <li>Your computer sends a request to the server where that website lives.</li>
+    <li>The server processes your request and sends back the data.</li>
+    <li>Data is broken into small packets that travel through many computers (routers) over cables or wireless signals.</li>
+    <li>Packets arrive and your browser reconstructs them into the full webpage.</li>
+</ol>
+<h4>Flow of Work: &#8594;</h4>
+<img src="img_20.png" alt="Img" height="400">
+<hr>
+<h2>IP Address &#8594;</h2>
+<p>An IP Address is a unique number assigned to every device on the internet (computers, phones, websites).</p>
+<p><b>Example: </b>(IPv4):
+    192.168.1.1</p>
+<p>It’s like a home address but for your computer or website.</p>
+<br>
+<p>Don't know About IPv4 &#8594; <a href="#first">IPv4</a></p>
+<hr>
+<h2>Access a Website &#8594;</h2>
+<b>Steps are:</b>
+<ol>
+    <li>You type a domain name (e.g., www.google.com
+        ).</li>
+    <li>Your computer asks a DNS (Domain Name System):
+    <ul>
+        <li>“What is the IP address of www.google.com?”</li>
+    </ul>
+    <li>The DNS replies:
+    <ul>
+        <li>“It’s 142.250.72.196”</li>
+    </ul>
+    <li>Your computer sends data packets to that IP address.</li>
+    <li>Now, you can see the webpage in your browser.</li>
+</ol>
+<h3>Who Assigns the IP Address &#8594;</h3>
+<p><b>IP Address</b> are assigned by:</p>
+<ul>
+    <li>Internet Service Providers (ISP).</li>
+    <li>Global organizations like IANA (Internet Assigned Numbers Authority).</li>
+    <li>For local networks, your router automatically assigns IPs</li>
+</ul>
+<hr>
+<h2>What is DNS &#8594;</h2>
+<p><b>DNS</b> is like the phonebook of Internet.</p>
+<p>you know the name i.e domain name ex- www.google.com but your computer needs the <b>IP address</b>
+    <br>
+    DNS translates domain names into IP addresses.</p>
+
+<p><b>Flow of Work:</b></p>
+<img src="_-%20visual%20selection%20(3).png" alt="Img" height="500">
+<hr>
+<h2>Problem in Data Transfer &#8594;</h2>
+<table border="1" style="border-collapse: collapse">
+    <thead>
+    <tr>
+        <th>Problem</th>
+        <th>Why It Happens</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Latency</td>
+        <td>Delay in data traveling across the network (slow connections).</td>
+    </tr>
+    <tr>
+        <td>Congestion</td>
+        <td>Too many devices sending data at the same time.</td>
+    </tr>
+    <tr>
+        <td>Security Risks</td>
+        <td>Data can be intercepted or hacked if not properly secured</td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<h2>MAC Address &#8594;</h2>
+<p>A MAC Address (Media Access Control Address) is a unique identifier for a device’s network card.</p>
+<p><b>Example: </b>00:1A:2B:3C:4D:5E</p>
+<ul>
+    <li>It’s used for local network communication (like your home Wi-Fi).</li>
+    <li>Fixed by the manufacturer, unlike IP addresses.</li>
+</ul>
+<hr>
+<h2>Port Number &#8594;</h2>
+<p>A Port Number helps your computer manage multiple services at once.</p>
+<p><b>Example: </b>Web server → Port 80 (HTTP) or 443 (HTTPS)</p>
+<p><b>Quick concept: </b>Think of your computer as an apartment building (IP address) and port numbers as apartment numbers (specific services).</p>
+<hr>
+<section id="first">
+<h2>IPv4 vs IPv6 &#8594;</h2>
+    <h3>IPv4</h3>
+    <p>devices (phones, smart TVs, etc.) connect to the internet, IPv4 addresses are running out.</p>
+    <h3>IPv6</h3>
+    <p>The new version of IP designed to solve the shortage of IPv4 addresses.</p>
+<table border ="2" style="border-collapse: collapse">
+    <thead>
+    <tr>
+        <th>Feature</th>
+        <th>IPv4</th>
+        <th>IPv6</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Address Length</td>
+        <td>32 bits</td>
+        <td>128 bits</td>
+    </tr>
+    <tr>
+        <td>Number of Addresses</td>
+        <td>approx 4 billion</td>
+        <td>practically unlimited</td>
+    </tr>
+    <tr >
+        <td>Reason for IPv6</td>
+        <td colspan="2">IPv4 addresses running out</td>
+    </tr>
+    </tbody>
+</table>
+</section>
+<hr>
+<h2>MAC Address format &#8594;</h2>
+<p>written in <b>Hexadecimal</b> from </p>
+<ul>
+    <li>Divided into six groups of two hexadecimal numbers.</li>
+    <li>Fixed and unique for every network interface.</li>
+</ul>
+<h3>Port Address Format &#8594;</h3>
+<p>IP Address : Port Number</p>
+<p>It is Basically Your home address</p>
+<p><b>and</b> MAC address basically Your device’s serial number</p>
+<hr>
+
+<h2>LAN &#8594;</h2>
+<p>A LAN (Local Area Network) is a small network that connects computers and devices in a close area — like your home, school, or office.</p>
+<p><b>Example: </b>Your home Wi-Fi connects your phone, laptop, and printer.</p>
+<hr>
+<h2>Switch &#8594;</h2>
+<p>A Switch is a device that connects multiple devices in a LAN and helps them talk to each other.</p>
+<p>Purpose of Switch: </p>
+<ul>
+    <li>Connects computers, printers, etc., in a local network.</li>
+    <li>Sends data only to the intended device (efficient).</li>
+</ul>
+<hr>
+<h2>Router &#8594;</h2>
+<p>A Router connects your local network (LAN) to the Internet.</p>
+<h3>Modern Router &#8594;</h3>
+<p>A Modern Router is an advanced device combining:
+<ul>
+    <li>Switch</li>
+    <li>Wi-Fi access point</li>
+    <li>FireWall</li>
+    <li>DHCP Server</li>
+</ul>
+<hr>
+<h2>Public and Private IP Address &#8594;</h2>
+<h3>Public IP</h3>
+<p>Used on the Internet</p>
+<h3>Private IP</h3>
+<p>Used in LAN (Local Network)</p>
+<hr>
+
+<h3>VPN</h3>
+<p>A VPN makes your internet connection secure and private.
+</p>
+<p><b>Quick Understanding:</b> Normally, when you browse, data travels like postcards anyone can read.
+    <br> But, With VPN → Your data travels through a private, encrypted tunnel → Nobody can read it.</p>
+
+<p>We use VPN for:</p>
+<ul>
+    <li>Protect your data on public Wi-Fi</li>
+    <li>Protects your network (firewall).</li>
+</ul>
+<hr>
+
+
+</body>
+</html>

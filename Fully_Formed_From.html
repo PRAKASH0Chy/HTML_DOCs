@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form-I</title>
+</head>
+<body>
+<form action="/submit-form" method="POST" enctype="multipart/form-data">
+
+  <label for="username">Name:</label>
+  <input type="text" id="username" name="username" placeholder="Enter your name" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" min="1" max="100"><br><br>
+<fieldset>
+  <legend>Gender:</legend>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br><br>
+  </fieldset>
+
+  <label for="subscribe">Subscribe to newsletter</label>
+  <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+  <label for="profile">Upload Profile Picture:</label>
+  <input type="file" id="profile" name="profile"><br><br>
+
+  <button type="submit">Submit</button>
+  <button type="reset">Clear</button>
+
+</form>
+
+
+</body>
+</html>

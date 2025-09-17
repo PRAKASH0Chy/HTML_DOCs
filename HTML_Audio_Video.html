@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML-Audio & Video</title>
+</head>
+<body>
+<h2>HTML &#8594; Audio & Video</h2>
+<h3> The &lt;audio&gt; Tag &#8594;</h3>
+<p>The &lt;audio&gt; is used to embed audio content (like music, podcasts, or sound effects) directly into a web page. </p>
+<h3>How to Use it &#8594;</h3>
+<img src="img_6.png" alt="Code Image" width="500px">
+<h3>Important Attributes:</h3>
+<table border="2" style="border-collapse: collapse;" >
+    <thead>
+    <tr>
+        <th><b>Attributes</b></th>
+        <th><b>Description</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><b>controls</b></td>
+        <td>Displays play, pause, and volume buttons</td>
+    </tr>
+    <tr>
+        <td><b>autoplay</b></td>
+        <td>Audio starts playing automatically when the page loads</td>
+    </tr>
+    <tr>
+        <td><b>loop</b></td>
+        <td>Audio repeats when finished</td>
+    </tr>
+    <tr>
+        <td><b>muted</b></td>
+        <td>Starts with audio muted</td>
+    </tr>
+    <tr>
+        <td><b>preload</b></td>
+        <td>Specifies whether to preload the audio ("auto", "metadata", "none")</td>
+    </tr>
+    </tbody>
+</table>
+<p><b>Supported Audio Formats are: </b>MP3,Ogg, etc</p>
+<br>
+<hr>
+<h3> The &lt;video&gt; Tag &#8594;</h3>
+<p>The <b>&lt;video&gt;</b> tag is used to Integrate video content (like tutorials, movie clips, animations) directly into a web page.</p>
+<h4>Usage of Video Tag: </h4>
+<ul>
+    <li>To display videos inside the browser without external apps.</li>
+    <li>Makes websites interactive (video tutorials, demos).</li>
+</ul>
+<h3>How to use it?</h3>
+<img src="img_7.png" alt="Code Image" width="480px">
+<p>&#8594; Under <b>"src"</b> we put link or file destination of video which we we want to display</p>
+<p>Supported Video Formats are: MP4, WebM, Ogg etc</p>
+<br>
+<hr>
+<h3>The <b>&lt;embed&gt;</b> Tag &#8594;</h3>
+<p>The <b>&lt;embed&gt;</b> tag like a window you put inside your web page that shows something from another place — like a PDF file, a video, or a small game.
+    <br> It’s like when you embed a YouTube video on your blog, or show a PDF document directly on your website without needing the user to download it.</p>
+<b>Examples: </b>
+<ul>
+    <li>Let suppose you want to show a PDF directly on your webpage:
+        <br>
+    <img src="img_8.png" alt="Code Image" width="600px">
+    <p>This will creates small window where the PDF appears right inside the page.</p>
+        <br>
+    <li>If you want to embed a video:
+    <br>
+    <img src="img_9.png" alt="Code Image" width="600px">
+</ul>
+<h4>Key Point:</h4>
+<p>Avoid using <b>&lt;embed&gt;</b> for modern audio and video content unless absolutely necessary (PDF, Flash, or legacy apps).</p>
+<br>
+<hr>
+<h2>allowfullscreen Attribute &#8594;</h2>
+<p><b>allowfullscreen</b> attribute is used in the <b>&lt;iframe&gt;</b> tag to allow the embedded content (like a video or a map) to be displayed in full-screen mode.</p>
+<b> Code Example: </b>
+<br>
+<img src="img_10.png" alt="Code Image" width="500px">
+<p>1. Why here is <b>allowfullscreen</b> : <br>
+    Modern browsers support <b>allowfullscreen</b> without any value (just the attribute name).</p>
+<br>
+<hr>
+<h3>Copyright Symbol, &#169; &#8594;</h3>
+<p> The &#169; symbol is used to show that something belongs to someone and is protected by copyright law</p>
+<p><b>Key Point:</b>It shows people that copying it without permission is not allowed.</p>
+<h4>How to add it in HTML file ?</h4>
+<ul>
+    <li>Decimal Code: <br>
+        <img src="img_11.png" alt="Code Image" width="250px">
+    <li>copy Method: <br>
+    <img src="img_12.png" alt="code image" width="190px">
+</ul>
+<br>
+<hr>
+<h3>&lt;iframe&gt; tag</h3>
+<h4>What is &lt;iframe&gt;</h4>
+<p>An <b>&lt;iframe&gt;</b> embeds another HTML page inside the current page.</p>
+<p>It is useful when you want to show pages without redirecting users.</p>
+<p><b>Example:</b> Embedding a page within webpage </p>
+<p><b>let me show u this web-page within web page.</b></p>
+<br>
+<br>
+<iframe src="HTML_Audio_Video.html" frameborder="0" height="600" width="1000"></iframe>
+<br>
+<h3>But How it can be done?</h3>
+<p>You just need to embed that webpage(.html) file under <b>src</b> </p>
+<h4>WorkFlow(another): </h4>
+<p>create a file named table.html with a simple table</p>
+<img src="img_13.png" alt="Code Image" width="400px">
+<p>Now, embed this table in another page using :<b>&lt;iframe&gt;</b></p>
+<img src="img_14.png" alt="Code Image" width="500px">
+<br>
+<hr>
+<h3>Autoplay &#8594;</h3>
+<p>The autoplay attribute tells the browser to start playing audio or video automatically when the page loads.</p>
+<ul>
+    <li>Example of Audio:
+        <br>
+        <img src="img_15.png" alt="Code Image" width="400px">
+    <li>Example of Video:
+    <br>
+    <img src="img_16.png" alt="Code Image" width="450px">
+</ul>
+<hr>
+
+
+
+</body>
+</html>

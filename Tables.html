@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tables</title>
+</head>
+<body>
+<h2>HTML &#8594; Tables :</h2>
+<h3>Table Structure: </h3>
+<p>&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, and &lt;td&gt; Tags HTML tables are built using a few key tags:</p>
+<ul>
+    <li><b>&lt;table&gt;</b>: Defines the table.</li>
+    <li><b>&lt;tr&gt;</b>: Represents a row in the table.</li>
+    <li><b>&lt;th&gt;</b>: Defines a header cell (bold and centered by default).</li>
+    <li><b>&lt;td&gt;</b>: Defines a standard data cell.</li>
+</ul>
+
+<p>Let Start with <b>Basic Table Example: </b></p>
+<img src="img.png" alt="display table" height="380" width="600">
+<p>Everything between <b>&lt;td&gt; </b> is the content of a table cell</p>
+
+<h3>HTML Table Tags</h3>
+<table border="1">
+    <thead>
+    <tr>
+    <th>Tag</th>
+    <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>&lt;table&gt;</td>
+        <td>Defines a table</td>
+    </tr>
+    <tr>
+        <td>&lt;th&gt;</td>
+        <td>Defines a header cell in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;tr&gt;</td>
+        <td>Defines a row in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;td&gt;</td>
+        <td>Defines a cell in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;thead&gt;</td>
+        <td>Groups the header content in a table</td>
+    </tr>
+    <tr>
+        <td>&lt;tbody&gt;</td>
+        <td>Groups the body content in a table</td>
+    </tr>
+
+    </tbody>
+</table>
+<hr>
+<h3>Table Border &#8594;</h3>
+<p>To add border</p>
+<p>We use the CSS border property on table, th, and td elements:</p>
+<img src="Screenshot%202025-09-14%20151455.png" alt="Code Image">
+<p><b>Key Points: </b> similarly, we can transform border wrt our needs such as : dotted border, colored border, solid border </p>
+<hr>
+<br>
+<h3>HTML Table Colspan and Rowspan &#8594;</h3>
+<p>It will performs on Table like: </p>
+<img src="img_1.png" alt="Table Image">
+<h3>Colspan &#8594;</h3>
+<p>If you want a table cell to stretch horizontally across multiple columns, use the colspan attribute.</p>
+<img src="Screenshot%202025-09-14%20153136.png" alt="Code Image" height="300">
+<p><b>What Happens:</b></p>
+<ul>
+    <li>The cell with "Fruits" uses rowspan="2".</li>
+    <li>So "Fruits" will stretch across 2 rows vertically.</li>
+</ul>
+<hr>
+<h3>Rowspan &#8594;</h3>
+<p>If you want a table cell to stretch vertically across several rows, you use the rowspan attribute</p>
+<img src="Screenshot%202025-09-14%20153300.png" alt="Code Image" height="300">
+<p><b>What Happens:</b></p>
+<ul>
+    <li>The "Details" header uses colspan="2".</li>
+    <li>So "Details" stretches across 2 columns horizontally.</li>
+</ul>
+<hr>
+<a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics" target="_blank">&#8594; Learn More about Tables on MDN Docs</a>
+
+
+</body>
+</html>
